@@ -10,6 +10,7 @@ import { PagetwoComponent } from './components/common/pagetwo/pagetwo.component'
 import { PagethreeComponent } from './components/common/pagethree/pagethree.component';
 import { PagefourComponent } from './components/common/pagefour/pagefour.component';
 import { PagefiveComponent } from './components/common/pagefive/pagefive.component';
+import { PagesixComponent } from './components/common/pagesix/pagesix.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PagefiveComponent } from './components/common/pagefive/pagefive.compone
     PagetwoComponent,
     PagethreeComponent,
     PagefourComponent,
-    PagefiveComponent
+    PagefiveComponent,
+    PagesixComponent
   ],
   imports: [
     BrowserModule,

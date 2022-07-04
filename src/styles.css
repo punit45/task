@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+ body{
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #FFFFFF;
+ }
+
+ .max-width {
+   max-width: 70%;
+   margin: auto;
+}
+
+.flex {
+   display: flex;
+}
+
+.absolute-center {
+   justify-content: center;
+   align-items: center;
+}
+
+.flex-col {
+   flex-direction: column;
+}
+
+@media all and (max-width: 1279px) {
+   .max-width {
+       max-width: 80%;
+   }
+}
+
+@media all and (max-width: 767px) {
+   .max-width {
+       max-width: 90%;
+   }
+
+   .non-mobile {
+       display: none !important;
+   }
+}
+
+@media all and (min-width: 766px) {
+   .only-mobile {
+       /* if the screen width is greater than 766px then components those are for mobile will not be displayed */
+       display: none !important;
+   }
+}
+
+@media all and (max-width:1297px) {
+   .header__logo{
+       height: 53px;
+   }
+   .header__navbar{
+       margin: 0px 16px 0px 28px;
+   }
+}
+
+@media all and (max-width:767px) {
+  .header__container{
+      padding-bottom : 50px;
+  }
+}

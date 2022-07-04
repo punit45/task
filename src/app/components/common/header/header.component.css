@@ -1,0 +1,49 @@
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    height: 60px;
+    width: 100%;
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    margin-right: 18px;
+    filter: brightness(92%);
+    cursor: pointer;
+}
+
+.header__navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav__link {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 10px 0 10px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.button__image {
+    border: none;
+    border-radius: 4px;
+    background: white;
+}
+
+@media all and (max-width: 1279px) {
+    .max-width {
+        max-width: 80%;
+    }
+}
